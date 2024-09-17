@@ -7,7 +7,7 @@ The `Vector` package provides a generic vector data structure for Go. It support
 To install the `Vector` package, use the following `go get` command:
 
 ```bash
-go get github.com/ayayaakasvin/genericsvector
+go get github.com/ayayaakasvin/genericsvector/Vector
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ package main
 
 import (
     "fmt"
-    "github.com/ayayaakasvin/genericsvector"
+    "github.com/ayayaakasvin/genericsvector/Vector"
 )
 
 func main() {
