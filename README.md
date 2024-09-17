@@ -25,7 +25,7 @@ import (
 
 func main() {
     // Create a new vector of integers
-    var v lecture.Vector[int]
+    var v genericsvector.Vector[int]
     
     // Append values to the vector
     v.Append(1)
