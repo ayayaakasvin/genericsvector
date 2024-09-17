@@ -20,7 +20,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/yourrepository/lecture"
+    "github.com/ayayaakasvin/genericsvector"
 )
 
 func main() {
