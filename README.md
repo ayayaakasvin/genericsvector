@@ -95,62 +95,62 @@ func main() {
 A generic vector type that holds elements of type `T`.
 
 ### Methods
-*`Append(value T)`: Adds a single element to the end of the vector.
+* `Append(value T)`: Adds a single element to the end of the vector.
 ```go
 func (V *Vector[T]) Append(value T)
 ```
 
-*`Size() int`: Returns the number of elements currently in the vector.
+* `Size() int`: Returns the number of elements currently in the vector.
 ```go
 func (V *Vector[T]) Size() int
 ```
 
-*`Pop() (T, error)`: Removes and returns the last element of the vector. Returns an error if the vector is empty.
+* `Pop() (T, error)`: Removes and returns the last element of the vector. Returns an error if the vector is empty.
 ```go
 func (V *Vector[T]) Pop() (T, error)
 ```
 
-*`Capacity() int`: Returns the current capacity of the vector.
+* `Capacity() int`: Returns the current capacity of the vector.
 ```go
 func (V *Vector[T]) Capacity() int
 ```
 
-*`At(index int) (T, error)`: Returns the element at the specified index. Returns an error if the index is out of bounds.
+* `At(index int) (T, error)`: Returns the element at the specified index. Returns an error if the index is out of bounds.
 ```go
 func (V *Vector[T]) At(index int) (T, error)
 ```
 
-*`Find(value T) (int, error)`: Finds and returns the index of the specified value. Returns an error if the value is not found.
+* `Find(value T) (int, error)`: Finds and returns the index of the specified value. Returns an error if the value is not found.
 ```go
 func (V *Vector[T]) Find(value T) (int, error)
 ```
 
-*`Back() (T, error)`: Returns the last element of the vector. Returns an error if the vector is empty.
+* `Back() (T, error)`: Returns the last element of the vector. Returns an error if the vector is empty.
 ```go
 func (V *Vector[T]) Back() (T, error)
 ```
 
-*`Clear()`: Clears all elements from the vector.
+* `Clear()`: Clears all elements from the vector.
 ```go
 func (V *Vector[T]) Clear()
 ```
 
-*`Empty() bool`: Checks if the vector is empty.
+* `Empty() bool`: Checks if the vector is empty.
 ```go
 func (V *Vector[T]) Empty() bool
 ```
 
-*`Remove(value T) error`: Removes the first occurrence of the specified value. Returns an error if the vector is empty or the value is not found.
+* `Remove(value T) error`: Removes the first occurrence of the specified value. Returns an error if the vector is empty or the value is not found.
 ```go
 func (V *Vector[T]) Remove(value T) error
 ```
 
-*`Set(index int, value T) error`: Sets the value at the specified index. Returns an error if the index is out of bounds.
+* `Set(index int, value T) error`: Sets the value at the specified index. Returns an error if the index is out of bounds.
 ```go
 func (V *Vector[T]) Set(index int, value T) error
 ```
 
-*`Insert(index int, values ...T) error`: Inserts one or more values at the specified index. Returns an error if the index is out of bounds.
+* `Insert(index int, values ...T) error`: Inserts one or more values at the specified index. Returns an error if the index is out of bounds.
 ```go
 func (V *Vector[T]) Insert(index int, values ...T) error
 ```
